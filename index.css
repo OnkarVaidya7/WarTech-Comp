@@ -28,7 +28,7 @@ mdiv{
 }
 .nm10{
     position: absolute;
-    top: 28px;
+    top: 24px;
     left: 1400px;
     /* z-index: -8; */
 }
@@ -78,14 +78,15 @@ mdiv{
     top: 30px;
     left: 435px;
 }
-.nm1, .nm2, .nm3, .nm4, .nm5, .nm6, .nm7, .nm8{
+.nm1, .nm2, .nm3, .nm4, .nm5, .nm6, .nm7, .nm8, .nm9, .nm10{
     /* font-weight: bold; */
     color: black;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     transition: 0.5s;
+    cursor: pointer;
 }
-.nm1:hover, .nm2:hover, .nm3:hover, .nm4:hover, .nm5:hover, .nm6:hover, .nm7:hover, .nm8:hover{
+.nm1:hover, .nm2:hover, .nm3:hover, .nm4:hover, .nm5:hover, .nm6:hover, .nm7:hover, .nm8:hover, .nm9:hover, .nm10:hover{
     color: #0926e0;
 }
 .img1{
@@ -233,7 +234,7 @@ mdiv{
     top: 1550px;
     /* left: 75px; */
     width: 100%;
-    height: 870px;
+    height: 800px;
     background-color: lightgray;
     z-index: 8;
     /* border: 2px solid #0926e0; */
@@ -260,6 +261,20 @@ mdiv{
     /* border-radius: 15px; */
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+}
+.y200i h1{
+    margin-left: 30px;
+    margin-top: -60px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.y200i h4{
+    margin-left: 30px;
+    margin-top: -55px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 .y200:hover{
     transform: scale(1.05);
@@ -348,6 +363,20 @@ mdiv{
 .v29ei img{
     border-radius: 15px;
 }
+.v29ei h1{
+    margin-left: 30px;
+    margin-top: -60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.v29ei h4{
+    margin-left: 30px;
+    margin-top: -55px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
 .v29e:hover{
     transform: scale(1.05);
 }
@@ -381,7 +410,7 @@ mdiv{
 
 .v29pro{
     position: absolute;
-    top: 470px;
+    top: 462px;
     right: 85px;
     height: 304px;
     width: 403px;
@@ -396,6 +425,16 @@ mdiv{
     border-radius: 15px;
     border-radius: 15px;
       /* transition: 0.8s; */
+}
+.v29proi h1{
+    margin-left: 26px;
+    margin-top: -50px;
+    color: white;
+}
+.v29proi h4{
+    margin-left: 26px;
+    margin-top: -60px;
+    color: white;
 }
 .v29proi img{
     /* border-radius: 15px; */
@@ -476,4 +515,126 @@ mdiv{
     /* font-size: 25px; */
     margin-left: 50px;
     /* margin-bottom: 50px; */
+}
+.footer{
+    position: absolute;
+    left: 0px;
+    top: 2350px;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(40, 44, 49);
+    z-index: 8;
+
+}
+.line1{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    color: whitesmoke;
+}
+.line1 p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.line1 li{
+    cursor: pointer;
+    transition: 0.2s;
+}
+.line1 a:hover{
+    /* transform: scale(); */
+    color: #0926e0;
+}
+.line1 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.line2{
+    position: absolute;
+    top: 80px;
+    left: 320px;
+    color: whitesmoke;
+}
+.line2 p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.line2 li{
+    cursor: pointer;
+    transition: 0.2s;
+}
+.line2 a:hover{
+    /* transform: scale(); */
+    color: #0926e0;
+}
+.line2 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.line3{
+    position: absolute;
+    top: 80px;
+    left: 580px;
+    color: whitesmoke;
+}
+.line3 p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.line3 li{
+    cursor: pointer;
+    transition: 0.2s;
+}
+.line3 a:hover{
+    /* transform: scale(); */
+    color: #0926e0;
+}
+.line3 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.line4{
+    position: absolute;
+    top: 80px;
+    left: 800px;
+    color: whitesmoke;
+}
+.line4 p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.line4 li{
+    cursor: pointer;
+    transition: 0.2s;
+}
+.line4 a:hover{
+    /* transform: scale(); */
+    color: #0926e0;
+}
+.line4 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.chat{
+    position: absolute;
+    top: 80px;
+    left: 1130px;
+    color: whitesmoke;
+    transition: 0.2s;
+}
+.chatop:hover{
+    color: #0926e0;
+}
+.call{
+    position: absolute;
+    top: 200px;
+    left: 1130px;
+    color: whitesmoke;
+    transition: 0.2s;
+}
+.call2{
+    position: absolute;
+    top: 300px;
+    left: 1130px;
+    color: whitesmoke;
+    transition: 0.2s;
 }
