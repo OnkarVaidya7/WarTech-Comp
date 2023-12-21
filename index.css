@@ -86,7 +86,11 @@ mdiv{
     transition: 0.5s;
     cursor: pointer;
 }
-.nm1:hover, .nm2:hover, .nm3:hover, .nm4:hover, .nm5:hover, .nm6:hover, .nm7:hover, .nm8:hover, .nm9:hover, .nm10:hover{
+.nm1 a, .nm2 a, .nm3 a, .nm4 a, .nm5 a, .nm6 a, .nm7 a, .nm8 a, .nm9 a, .nm10 a{
+    color: black;
+    text-decoration: none;
+}
+.nm1 a:hover, .nm2 a:hover, .nm3 a:hover, .nm4 a:hover, .nm5 a:hover, .nm6 a:hover, .nm7 a:hover, .nm8 a:hover, .nm9 a:hover, .nm10 a:hover{
     color: #0926e0;
 }
 .img1{
